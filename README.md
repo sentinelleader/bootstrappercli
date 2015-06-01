@@ -131,5 +131,5 @@ bootstrappercli
         ➜  ~ bootstrappercli inventory -p tag_Role_test -e dev
              ["172.20.1.249"]
 
-    Note: Currently bootstrappercli doesnt support Security Group creation, so a valid security group must exists for the role in the Name format `sg_vpc_<role>`
+    Note: Currently bootstrappercli doesnt support Security Group creation, so a valid security group must exists for the role`
 
