@@ -14,5 +14,8 @@ setup(
     packages=['bootstrappercli'],
     scripts=['bin/bootstrappercli'],
     description='Boootstrapper client script',
+    install_requires=[
+          'requests',
+    ],
     long_description=open('README.md').read(),
 )
